@@ -11,6 +11,7 @@ namespace ApplicationUsingNativetitleBarExample {
       setUsingNativeTitleBar(true);
    }
     
+  protected:
     void closeButtonPressed() override {JUCEApplication::getInstance()->quit();}
   };
   
