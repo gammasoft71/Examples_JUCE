@@ -4,6 +4,7 @@ if (NOT JUCE_FOUND)
   find_package(JUCE REQUIRED)
 endif ()
 
+add_subdirectory(HelloWorldAlertWindow)
 add_subdirectory(HelloWorldLabel)
 add_subdirectory(HelloWorldNativeMessageBox)
 add_subdirectory(HelloWorldPaint)
