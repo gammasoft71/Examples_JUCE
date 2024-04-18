@@ -10,6 +10,7 @@ namespace ApplicationExample {
       setBounds(200, 100, 300, 300);
    }
     
+  protected:
     void closeButtonPressed() override {JUCEApplication::getInstance()->quit();}
   };
   
