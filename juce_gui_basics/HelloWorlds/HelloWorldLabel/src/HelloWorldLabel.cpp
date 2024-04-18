@@ -2,7 +2,7 @@
 
 using namespace juce;
 
-namespace ApplicationExample {
+namespace HelloWorldLabelExample {
   class Window1 : public DocumentWindow {
   public:
     Window1() : DocumentWindow {"Hello world (Label)", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
@@ -36,4 +36,4 @@ namespace ApplicationExample {
   };
 }
 
-START_JUCE_APPLICATION(ApplicationExample::Application)
+START_JUCE_APPLICATION(HelloWorldLabelExample::Application)
