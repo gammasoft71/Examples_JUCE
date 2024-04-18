@@ -4,7 +4,7 @@ Shows how to create a simple JUCE application with [juce::JUCEApplication](https
 
 ## Source
 
-[src/Application.cpp](src/ApplicationUsingNativeTitleBar.cpp)
+[src/ApplicationUsingNativeTitleBar.cpp](src/ApplicationUsingNativeTitleBar.cpp)
 
 [CMakeLists.txt](CMakeLists.txt)
 
