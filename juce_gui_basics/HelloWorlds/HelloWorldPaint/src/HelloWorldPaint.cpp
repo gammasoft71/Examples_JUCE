@@ -7,17 +7,11 @@ namespace HelloWorldLabelExample {
   protected:
     void paint(Graphics &g) override {
       g.fillAll(Colours::lightblue);
-      
       g.setFont({Font::getDefaultMonospacedFontName(), 40, Font::FontStyleFlags::bold | Font::FontStyleFlags::italic});
-      auto text = "Hello, World!";
       g.setColour(Colours::lightblue.darker());
-      auto textRect = g.getClipBounds();
-      auto shadowTextRect = textRect;
-      shadowTextRect.translate(2, 2);
-      g.drawText(text, shadowTextRect, Justification::centred);
-      
+      g.drawText("Hello, World!", g.getClipBounds() + Point<int>(2, 2), Justification::centred);
       g.setColour(Colours::darkblue);
-      g.drawText(text, textRect, Justification::centred);
+      g.drawText("Hello, World!", g.getClipBounds(), Justification::centred);
     }
   };
 
