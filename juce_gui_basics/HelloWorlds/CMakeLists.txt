@@ -5,6 +5,7 @@ if (NOT JUCE_FOUND)
 endif ()
 
 add_subdirectory(HelloWorldAlertWindow)
+add_subdirectory(HelloWorldAlertWindow2)
 add_subdirectory(HelloWorldLabel)
 add_subdirectory(HelloWorldNativeMessageBox)
 add_subdirectory(HelloWorldNativeMessageBox2)
