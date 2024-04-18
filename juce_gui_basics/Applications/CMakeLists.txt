@@ -5,4 +5,5 @@ if (NOT JUCE_FOUND)
 endif ()
 
 add_subdirectory(Application)
+add_subdirectory(ApplicationAndException)
 add_subdirectory(ApplicationUsingNativeTitleBar)
