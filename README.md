@@ -1,4 +1,4 @@
-# JUCE Examples
+# JUCE examples
 
 Shows how to use [JUCE](https://juce.com) components only by programming code ([c++17](https://en.cppreference.com/w/)).
 
