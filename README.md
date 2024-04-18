@@ -4,6 +4,7 @@ Shows how to use [JUCE](https://juce.com) components only by programming code ([
 
 [![JUCE](docs/Pictures/JUCE.png)](https://juce.com)
 
+<!---
 ## [juce_analytics](juce_analytics/README.md) 
 
 * Not yet implemented
@@ -59,6 +60,7 @@ Shows how to use [JUCE](https://juce.com) components only by programming code ([
 ## [juce_graphics](juce_graphics/README.md) 
 
 * Not yet implemented
+--->
 
 ## [juce_gui_basics](juce_gui_basics/README.md) 
 
@@ -67,6 +69,7 @@ Shows how to use [JUCE](https://juce.com) components only by programming code ([
 * [Hello World](juce_gui_basics/HelloWorlds/README.md) contains JUCE "Hello, World!" examples.
 * [Applications](juce_gui_basics/Applications/README.md) contains applications examples.
 
+<!---
 ## [juce_gui_extra](juce_gui_extra/README.md) 
 
 * Not yet implemented
@@ -90,6 +93,7 @@ Shows how to use [JUCE](https://juce.com) components only by programming code ([
 ## [juce_video](juce_video/README.md) 
 
 * Not yet implemented
+--->
 
 ## Download
 
