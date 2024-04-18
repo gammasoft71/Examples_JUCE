@@ -1,6 +1,6 @@
 # juce_gui_basics examples
 
-[This folder](.) contains the basic GUI classes such as GDI classes and components examples.
+[This folder](.) contains the basic GUI classes such as GDI classes and widgets examples.
 
 [![JUCE](../docs/Pictures/JUCE.png)](https://www.juce.com)
 

@@ -64,7 +64,7 @@ Shows how to use [JUCE](https://juce.com) components only by programming code ([
 
 ## [juce_gui_basics](juce_gui_basics/README.md) 
 
-[juce_gui_basics examples](juce_gui_basics/README.md) contains juce_gui_basics (GUI) examples.
+[juce_gui_basics examples](juce_gui_basics/README.md) contains [juce_gui_basics](https://docs.juce.com/master/group__juce__gui__basics.html) (GUI) examples.
 
 * [Hello World](juce_gui_basics/HelloWorlds/README.md) contains JUCE "Hello, World!" examples.
 * [Applications](juce_gui_basics/Applications/README.md) contains applications examples.
