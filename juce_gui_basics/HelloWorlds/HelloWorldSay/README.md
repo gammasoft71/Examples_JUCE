@@ -1,6 +1,6 @@
 # HelloWorldSay
 
-The classic first application HelloWorld with [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widgets.
+The classic first application HelloWorld with [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widget.
 
 ## Source
 
