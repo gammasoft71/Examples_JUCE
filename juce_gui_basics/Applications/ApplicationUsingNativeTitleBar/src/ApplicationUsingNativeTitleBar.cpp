@@ -5,7 +5,7 @@ using namespace juce;
 namespace ApplicationExample {
   class Window1 : public DocumentWindow {
   public:
-    Window1() : DocumentWindow("Application using native title bar", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons) {
+    Window1() : DocumentWindow {"Application using native title bar", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
       setResizable(true, true);
       setBounds(200, 100, 300, 300);
       setUsingNativeTitleBar(true);
