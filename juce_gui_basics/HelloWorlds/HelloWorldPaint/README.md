@@ -1,16 +1,16 @@
-# HelloWorldLabel
+# HelloWorldPaint
 
-The classic first application HelloWorld with [juce::Label](https://docs.juce.com/master/classLabel.html) class
+The classic first application HelloWorld with [juce::Component::paint](https://docs.juce.com/master/classComponent.html#a7cf1862f4af5909ea72827898114a182) method.
 
 ## Source
 
-[src/HelloWorldLabel.cpp](src/HelloWorldLabel.cpp)
+[src/HelloWorldPaint.cpp](src/HelloWorldPaint.cpp)
 
 [CMakeLists.txt](CMakeLists.txt)
 
 ## Output
 
-![output](../../../docs/Pictures/HelloWorldLabel.png)
+![output](../../../docs/Pictures/HelloWorldPaint.png)
 
 ## Build and run
 
@@ -21,7 +21,7 @@ To build this project, open "Terminal" and type following lines:
 ``` shell
 mkdir build && cd build
 cmake .. 
-start HelloWorldLabel.sln
+start HelloWorldPaint.sln
 ```
 
 Select Application project and type Ctrl+F5 to build and run it.
@@ -31,7 +31,7 @@ Select Application project and type Ctrl+F5 to build and run it.
 ``` shell
 mkdir build && cd build
 cmake .. -G "Xcode"
-open ./HelloWorldLabel.xcodeproj
+open ./HelloWorldPaint.xcodeproj
 ```
 
 Select Application project and type Cmd+R to build and run it.
@@ -41,7 +41,7 @@ Select Application project and type Cmd+R to build and run it.
 ``` shell
 mkdir build && cd build
 cmake .. -G "CodeBlocks - Unix Makefiles"
-xdg-open ./HelloWorldLabel.cbp > /dev/null 2>&1
+xdg-open ./HelloWorldPaint.cbp > /dev/null 2>&1
 ```
 
 Select Application project and type F9 to build and run it.
@@ -52,5 +52,5 @@ Select Application project and type F9 to build and run it.
 mkdir build && cd build
 cmake .. 
 cmake --build . --config Debug
-./HelloWorldLabel
+./HelloWorldPaint
 ```

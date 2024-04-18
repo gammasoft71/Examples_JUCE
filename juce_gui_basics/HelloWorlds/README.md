@@ -2,7 +2,8 @@
 
 [This folder](.) contains JUCE "Hello, world!" examples.
 
-* [HelloWorldLabel](HelloWorldLabel/README.md) The classic first application HelloWorld with []juce::Label](https://docs.juce.com/master/classLabel.html) class.
+* [HelloWorldLabel](HelloWorldLabel/README.md) The classic first application HelloWorld with [juce::Label](https://docs.juce.com/master/classLabel.html) class.
+* [HelloWorldPaint](HelloWorldPaint/README.md) The classic first application HelloWorld with [juce::Component::paint](https://docs.juce.com/master/classComponent.html#a7cf1862f4af5909ea72827898114a182) method.
 
 ## Build and run
 
