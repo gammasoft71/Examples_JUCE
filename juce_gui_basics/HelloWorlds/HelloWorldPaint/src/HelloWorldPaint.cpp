@@ -6,18 +6,17 @@ namespace HelloWorldLabelExample {
   class OwnerDrawComponent : public Component {
   protected:
     void paint(Graphics &g) override {
-      g.fillAll({0x0, 0x20, 0x10});
+      g.fillAll(Colours::lightblue);
       
       g.setFont({Font::getDefaultMonospacedFontName(), 40, Font::FontStyleFlags::bold | Font::FontStyleFlags::italic});
       auto text = "Hello, World!";
-      auto textColour = Colours::springgreen;
-      g.setColour(textColour.darker(2.0f));
+      g.setColour(Colours::lightblue.darker());
       auto textRect = g.getClipBounds();
       auto shadowTextRect = textRect;
       shadowTextRect.translate(2, 2);
       g.drawText(text, shadowTextRect, Justification::centred);
       
-      g.setColour(textColour);
+      g.setColour(Colours::darkblue);
       g.drawText(text, textRect, Justification::centred);
     }
   };
