@@ -3,7 +3,7 @@
 [This folder](.) contains JUCE application examples.
 
 * [Application](Application/README.md) shows how to create a simple JUCE application with  [juce::JUCEApplication](https://docs.juce.com/master/classJUCEApplication.html) class.
-* [ApplicationUsingNativeTitleBar](ApplicationUsingNativeTitleBar/README.md) shows how to create a simple JUCE application with [juce::JUCEApplication](https://docs.juce.com/master/classJUCEApplication.html) class and [juce::TopLevelWindow::setUsingNativeTitlzBar](https://docs.juce.com/master/classTopLevelWindow.html#a749fbd5e688ed8c9af3d0d99b21e18c8) method.
+* [ApplicationUsingNativeTitleBar](ApplicationUsingNativeTitleBar/README.md) shows how to create a simple JUCE application with [juce::JUCEApplication](https://docs.juce.com/master/classJUCEApplication.html) class and [juce::TopLevelWindow::setUsingNativeTitleBar](https://docs.juce.com/master/classTopLevelWindow.html#a749fbd5e688ed8c9af3d0d99b21e18c8) method.
 
 ## Build and run
 
