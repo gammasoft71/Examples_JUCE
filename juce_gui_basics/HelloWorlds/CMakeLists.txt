@@ -5,4 +5,5 @@ if (NOT JUCE_FOUND)
 endif ()
 
 add_subdirectory(HelloWorldLabel)
+add_subdirectory(HelloWorldNativeMessageBox)
 add_subdirectory(HelloWorldPaint)
