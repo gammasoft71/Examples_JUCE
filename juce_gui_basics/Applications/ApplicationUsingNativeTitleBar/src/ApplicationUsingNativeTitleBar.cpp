@@ -2,7 +2,7 @@
 
 using namespace juce;
 
-namespace ApplicationExample {
+namespace ApplicationUsingNativetitleBarExample {
   class Window1 : public DocumentWindow {
   public:
     Window1() : DocumentWindow {"Application using native title bar", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
@@ -27,4 +27,4 @@ namespace ApplicationExample {
   };
 }
 
-START_JUCE_APPLICATION(ApplicationExample::Application)
+START_JUCE_APPLICATION(ApplicationUsingNativetitleBarExample::Application)
