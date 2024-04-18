@@ -1,6 +1,6 @@
 # HelloWorldLabel
 
-The classic first application HelloWorld with [juce::Label](https://docs.juce.com/master/classLabel.html) class
+The classic first application HelloWorld with [juce::Label](https://docs.juce.com/master/classLabel.html) widget.
 
 ## Source
 
