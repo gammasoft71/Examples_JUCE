@@ -4,9 +4,8 @@ Shows how to create a Label widget with [juce::Label](https://docs.juce.com/mast
 
 ## Source
 
-[src/Label.cpp](src/Label.cpp)
-
-[CMakeLists.txt](CMakeLists.txt)
+* [src/Label.cpp](src/Label.cpp)
+* [CMakeLists.txt](CMakeLists.txt)
 
 ## Output
 
