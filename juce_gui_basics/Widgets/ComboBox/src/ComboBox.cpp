@@ -8,6 +8,7 @@ namespace ComboBoxExample {
     Window1() : DocumentWindow {"ComboBox example", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
       setBounds(200, 100, 300, 300);
       setContentOwned(&mainComponent, false);
+      setResizable(true, true);
       
       comboBox1.setBounds(10, 10, 105, 25);
       comboBox1.addItemList({"Item1", "Item2", "Item3", "Item4", "Item5", "Item6", "Item7", "Item8", "Item9", "Item10"}, 1);
