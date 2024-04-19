@@ -4,9 +4,8 @@ Shows how to create a ComboBox widget with [juce::ComboBox](https://docs.juce.co
 
 ## Source
 
-[src/ComboBox.cpp](src/ComboBox.cpp)
-
-[CMakeLists.txt](CMakeLists.txt)
+* [src/ComboBox.cpp](src/ComboBox.cpp)
+* [CMakeLists.txt](CMakeLists.txt)
 
 ## Output
 
