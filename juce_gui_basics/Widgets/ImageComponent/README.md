@@ -5,6 +5,7 @@ Shows how to create a Image widget with [juce::ImageComponent](https://docs.juce
 ## Source
 
 [src/ImageComponent.cpp](src/ImageComponent.cpp)
+[resources/logo.png](resources/logo.png)
 
 [CMakeLists.txt](CMakeLists.txt)
 
