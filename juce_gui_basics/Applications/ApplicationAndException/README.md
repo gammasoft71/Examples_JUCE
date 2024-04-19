@@ -4,9 +4,8 @@ Shows how to create a simple JUCE Application with [juce::JUCEApplication](https
 
 ## Source
 
-[src/ApplicationAndException.cpp](src/ApplicationAndException.cpp)
-
-[CMakeLists.txt](CMakeLists.txt)
+* [src/ApplicationAndException.cpp](src/ApplicationAndException.cpp)
+* [CMakeLists.txt](CMakeLists.txt)
 
 ## Output
 
