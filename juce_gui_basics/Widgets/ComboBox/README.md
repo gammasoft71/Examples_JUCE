@@ -24,7 +24,7 @@ cmake ..
 start ComboBox.sln
 ```
 
-Select ComboBox project and type Ctrl+F5 to build and run it.
+Select `ComboBox` project and type Ctrl+F5 to build and run it.
 
 ### macOS :
 
@@ -34,7 +34,7 @@ cmake .. -G "Xcode"
 open ./ComboBox.xcodeproj
 ```
 
-Select ComboBox project and type Cmd+R to build and run it.
+Select `ComboBox` project and type Cmd+R to build and run it.
 
 ### Linux with Code::Blocks :
 
@@ -44,7 +44,7 @@ cmake .. -G "CodeBlocks - Unix Makefiles"
 xdg-open ./ComboBox.cbp > /dev/null 2>&1
 ```
 
-Select ComboBox project and type F9 to build and run it.
+Select `ComboBox` project and type F9 to build and run it.
 
 ### Linux :
 
