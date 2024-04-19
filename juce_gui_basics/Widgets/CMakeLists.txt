@@ -5,3 +5,4 @@ if (NOT JUCE_FOUND)
 endif ()
 
 add_subdirectory(ComboBox)
+add_subdirectory(Label)

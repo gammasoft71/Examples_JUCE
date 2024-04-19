@@ -24,6 +24,7 @@
 ## [Widgets](Widgets/README.md)
 
 * [ComboBox](Widgets/ComboBox/README.md) shows how to create a ComboBox widget with [juce::ComboBox](https://docs.juce.com/master/classComboBox.html).
+* [Label](Widgets/Label/README.md) shows how to create a ComboBox widget with [juce::Label](https://docs.juce.com/master/classLabel.html).
 
 ## Build and run
 
