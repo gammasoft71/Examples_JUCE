@@ -4,6 +4,7 @@
 
 * [HelloWorldAlertWindow](HelloWorldAlertWindow/README.md) The classic first application HelloWorld with [juce::AlertWindow](https://docs.juce.com/master/classAlertWindow.html) dialog.
 * [HelloWorldAlertWindow2](HelloWorldAlertWindow2/README.md) The classic first application HelloWorld with [juce::AlertWindow](https://docs.juce.com/master/classAlertWindow.html) dialog.
+* [HelloWorldJUCE](HelloWorldJUCE/README.md) The classic first application HelloWorld with [juce::Label](https://docs.juce.com/master/classLabel.html) and [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widgets and [juce::Path](https://docs.juce.com/master/classPath.html) class.
 * [HelloWorldLabel](HelloWorldLabel/README.md) The classic first application HelloWorld with [juce::Label](https://docs.juce.com/master/classLabel.html) widget.
 * [HelloWorldNativeMessageBox](HelloWorldNativeMessageBox/README.md) The classic first application HelloWorld with [juce::NativeMessageBox](https://docs.juce.com/master/classNativeMessageBox.html) dialog.
 * [HelloWorldNativeMessageBox2](HelloWorldNativeMessageBox2/README.md) The classic first application HelloWorld with [juce::NativeMessageBox](https://docs.juce.com/master/classNativeMessageBox.html) dialog.
