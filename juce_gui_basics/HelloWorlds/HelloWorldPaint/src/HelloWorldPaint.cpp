@@ -2,7 +2,7 @@
 
 using namespace juce;
 
-namespace HelloWorldLabelExample {
+namespace HelloWorldPaintExample {
   class OwnerDrawComponent : public Component {
   protected:
     void paint(Graphics &g) override {
@@ -43,4 +43,4 @@ namespace HelloWorldLabelExample {
   };
 }
 
-START_JUCE_APPLICATION(HelloWorldLabelExample::Application)
+START_JUCE_APPLICATION(HelloWorldPaintExample::Application)

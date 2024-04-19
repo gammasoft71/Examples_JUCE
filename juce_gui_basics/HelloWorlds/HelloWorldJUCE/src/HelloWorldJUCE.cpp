@@ -2,7 +2,7 @@
 
 using namespace juce;
 
-namespace HelloWorldLabelExample {
+namespace HelloWorldJUCEExample {
   class HelloWorldDemo : public Component {
   public:
     HelloWorldDemo() {
@@ -80,4 +80,4 @@ namespace HelloWorldLabelExample {
   };
 }
 
-START_JUCE_APPLICATION(HelloWorldLabelExample::Application)
+START_JUCE_APPLICATION(HelloWorldJUCEExample::Application)

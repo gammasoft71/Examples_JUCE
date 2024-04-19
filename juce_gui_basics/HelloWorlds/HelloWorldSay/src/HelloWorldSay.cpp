@@ -6,7 +6,7 @@ using namespace juce;
 using namespace std;
 using namespace std::filesystem;
 
-namespace HelloWorldLabelExample {
+namespace HelloWorldSayExample {
   class Window1 : public DocumentWindow {
   public:
     Window1() : DocumentWindow {"Hello world (Say)", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
@@ -57,4 +57,4 @@ namespace HelloWorldLabelExample {
   };
 }
 
-START_JUCE_APPLICATION(HelloWorldLabelExample::Application)
+START_JUCE_APPLICATION(HelloWorldSayExample::Application)

@@ -2,7 +2,7 @@
 
 using namespace juce;
 
-namespace HelloWorldLabelExample {
+namespace HelloWorldAlertWindow2Example {
   class Application : public JUCEApplication {
   protected:
     const String getApplicationName() override {return "";}
@@ -13,4 +13,4 @@ namespace HelloWorldLabelExample {
   };
 }
 
-START_JUCE_APPLICATION(HelloWorldLabelExample::Application)
+START_JUCE_APPLICATION(HelloWorldAlertWindow2Example::Application)
