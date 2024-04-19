@@ -29,8 +29,8 @@ namespace HelloWorldLabelExample {
   
   class Application : public JUCEApplication {
   protected:
-    const String getApplicationName() override {return JUCE_APPLICATION_NAME_STRING;}
-    const String getApplicationVersion() override {return JUCE_APPLICATION_VERSION_STRING;}
+    const String getApplicationName() override {return "";}
+    const String getApplicationVersion() override {return "";}
     
     void initialise(const String& commandLine) override {mainWindow.setVisible(true);}
     void shutdown() override {}
