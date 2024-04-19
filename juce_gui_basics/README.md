@@ -21,6 +21,10 @@
 * [ApplicationAndException](Applications/ApplicationAndException/README.md) shows how to create a simple JUCE application with  [juce::JUCEApplication](https://docs.juce.com/master/classJUCEApplication.html) class and how to manage exception.
 * [ApplicationUsingNativeTitleBar](Applications/ApplicationUsingNativeTitleBar/README.md) shows how to create a simple JUCE application with [juce::JUCEApplication](https://docs.juce.com/master/classJUCEApplication.html) class and [juce::TopLevelWindow::setUsingNativeTitleBar](https://docs.juce.com/master/classTopLevelWindow.html#a749fbd5e688ed8c9af3d0d99b21e18c8) method.
 
+## [Widgets](Widgets/README.md)
+
+* [ComboBox](Widgets/ComboBox/README.md) shows how to create a ComboBox widget with [juce::ComboBox](https://docs.juce.com/master/classComboBox.html).
+
 ## Build and run
 
 To build this project, open "Terminal" and type following lines:
