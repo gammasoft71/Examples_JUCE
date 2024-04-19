@@ -5,10 +5,7 @@ using namespace juce;
 namespace ApplicationExample {
   class Window1 : public DocumentWindow {
   public:
-    Window1() : DocumentWindow {"Application", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
-      setResizable(true, true);
-      setBounds(200, 100, 300, 300);
-   }
+    Window1() : DocumentWindow {"Application", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {}
     
   protected:
     void closeButtonPressed() override {JUCEApplication::getInstance()->quit();}
