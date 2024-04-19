@@ -24,7 +24,7 @@ namespace HelloWorldLabelExample {
    }
     
   protected:
-    void closeButtonPressed() override {JUCEApplication::getInstance()->quit();}
+    void closeButtonPressed() override {JUCEApplication::quit();}
     
   private:
     OwnerDrawComponent mainCompnent;

@@ -8,7 +8,7 @@ namespace ApplicationExample {
     Window1() : DocumentWindow {"Application", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {}
     
   protected:
-    void closeButtonPressed() override {JUCEApplication::getInstance()->quit();}
+    void closeButtonPressed() override {JUCEApplication::quit();}
   };
   
   class Application : public JUCEApplication {
