@@ -74,7 +74,7 @@ namespace ApplicationAndExceptionExample {
   private:
     static void ShowExceptionError(const std::exception* exception) {
       auto message = String {"Unhandled exception occurred in your application. If you click\nOK, the application will ignore this error and attempt to continue.\nIf you click Cancel, the application will close immediately.\n\n"} + (exception ? exception->what() : "Unknown exception occurred");
-      if (NativeMessageBox::showOkCancelBox(MessageBoxIconType::WarningIcon, "Exception );", message) == true) {
+      if (NativeMessageBox::showOkCancelBox(MessageBoxIconType::WarningIcon, "Exception occurred", message) == true) {
         JUCE_TRY {
           MessageManager::getInstance()->runDispatchLoop();
         }
