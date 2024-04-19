@@ -8,7 +8,7 @@ namespace ApplicationAndExceptionExample {
   class Window1 : public DocumentWindow {
   public:
     Window1() : DocumentWindow {"Application and exception example", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
-      // uncomment to throw exception
+      // Uncomment the following line to raise the exception in Application::initialise method :
       //throw overflow_error("Creation object error");
 
       setContentOwned(&mainComponent, false);
@@ -67,9 +67,7 @@ namespace ApplicationAndExceptionExample {
       } 
     }
     void shutdown() override {}
-    void unhandledException(const std::exception* exception, const String &sourceFilename, int lineNumber) override {
-      ShowExceptionError(exception);
-    }
+    void unhandledException(const std::exception* exception, const String &sourceFilename, int lineNumber) override {ShowExceptionError(exception);}
     
   private:
     static void ShowExceptionError(const std::exception* exception) {
@@ -77,8 +75,7 @@ namespace ApplicationAndExceptionExample {
       if (NativeMessageBox::showOkCancelBox(MessageBoxIconType::WarningIcon, "Exception occurred", message) == true) {
         JUCE_TRY {
           MessageManager::getInstance()->runDispatchLoop();
-        }
-        JUCE_CATCH_EXCEPTION
+        } JUCE_CATCH_EXCEPTION
       }
     }
     unique_ptr<DocumentWindow> mainWindow;
