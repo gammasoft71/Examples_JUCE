@@ -4,9 +4,8 @@ The classic first application HelloWorld with [juce::NativeMessageBox](https://d
 
 ## Source
 
-[src/HelloWorldNativeMessageBox.cpp](src/HelloWorldNativeMessageBox.cpp)
-
-[CMakeLists.txt](CMakeLists.txt)
+* [src/HelloWorldNativeMessageBox.cpp](src/HelloWorldNativeMessageBox.cpp)
+* [CMakeLists.txt](CMakeLists.txt)
 
 ## Output
 

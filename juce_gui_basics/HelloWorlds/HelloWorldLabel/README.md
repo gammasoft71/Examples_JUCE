@@ -4,9 +4,8 @@ The classic first application HelloWorld with [juce::Label](https://docs.juce.co
 
 ## Source
 
-[src/HelloWorldLabel.cpp](src/HelloWorldLabel.cpp)
-
-[CMakeLists.txt](CMakeLists.txt)
+* [src/HelloWorldLabel.cpp](src/HelloWorldLabel.cpp)
+* [CMakeLists.txt](CMakeLists.txt)
 
 ## Output
 

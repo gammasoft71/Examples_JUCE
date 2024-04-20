@@ -4,9 +4,8 @@ The classic first application HelloWorld with [juce::AlertWindow](https://docs.j
 
 ## Source
 
-[src/HelloWorldAlertWindow.cpp](src/HelloWorldAlertWindow.cpp)
-
-[CMakeLists.txt](CMakeLists.txt)
+* [src/HelloWorldAlertWindow.cpp](src/HelloWorldAlertWindow.cpp)
+* [CMakeLists.txt](CMakeLists.txt)
 
 ## Output
 

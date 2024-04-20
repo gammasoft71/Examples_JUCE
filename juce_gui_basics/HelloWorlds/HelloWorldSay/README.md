@@ -4,9 +4,8 @@ The classic first application HelloWorld with [juce::TextButton](https://docs.ju
 
 ## Source
 
-[src/HelloWorldSay.cpp](src/HelloWorldSay.cpp)
-
-[CMakeLists.txt](CMakeLists.txt)
+* [src/HelloWorldSay.cpp](src/HelloWorldSay.cpp)
+* [CMakeLists.txt](CMakeLists.txt)
 
 ## Output
 

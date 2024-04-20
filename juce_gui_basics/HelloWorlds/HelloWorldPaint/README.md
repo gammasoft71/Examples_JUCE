@@ -4,9 +4,8 @@ The classic first application HelloWorld with [juce::Component::paint](https://d
 
 ## Source
 
-[src/HelloWorldPaint.cpp](src/HelloWorldPaint.cpp)
-
-[CMakeLists.txt](CMakeLists.txt)
+* [src/HelloWorldPaint.cpp](src/HelloWorldPaint.cpp)
+* [CMakeLists.txt](CMakeLists.txt)
 
 ## Output
 
