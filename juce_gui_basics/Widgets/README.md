@@ -5,6 +5,7 @@
 * [ComboBox](ComboBox/README.md) shows how to create a ComboBox widget with [juce::ComboBox](https://docs.juce.com/master/classComboBox.html).
 * [ImageComponent](ImageComponent/README.md) shows how to create a Image widget with [juce::ImageComponent](https://docs.juce.com/master/classImageComponent.html).
 * [Label](Label/README.md) shows how to create a ComboBox widget with [juce::Label](https://docs.juce.com/master/classLabel.html).
+* [ListBox](ListBox/README.md) shows how to create a ComboBox widget with [juce::ListBox](https://docs.juce.com/master/classListBox.html).
 
 ## Build and run
 
