@@ -4,7 +4,7 @@
 using namespace juce;
 using namespace std;
 
-namespace LabelExample {
+namespace ListBoxExample {
   class StringVectorListBoxModel : public ListBoxModel, public vector<String> {
   public:
     StringVectorListBoxModel() = default;
@@ -89,4 +89,4 @@ namespace LabelExample {
   };
 }
 
-START_JUCE_APPLICATION(LabelExample::Application)
+START_JUCE_APPLICATION(ListBoxExample::Application)
