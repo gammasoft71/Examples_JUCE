@@ -3,7 +3,7 @@
 [This folder](.) contains JUCE widgets examples.
 
 * [ComboBox](ComboBox/README.md) shows how to create a ComboBox widget with [juce::ComboBox](https://docs.juce.com/master/classComboBox.html).
-* [ImageComponent](ImageComponent/README.md) shows how to create a Image widget with [juce::Label](https://docs.juce.com/master/classImageComponent.html).
+* [ImageComponent](ImageComponent/README.md) shows how to create a Image widget with [juce::ImageComponent](https://docs.juce.com/master/classImageComponent.html).
 * [Label](Label/README.md) shows how to create a ComboBox widget with [juce::Label](https://docs.juce.com/master/classLabel.html).
 
 ## Build and run

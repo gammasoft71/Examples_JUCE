@@ -2,7 +2,7 @@
 
 using namespace juce;
 
-namespace ComboBoxExample {
+namespace ImageComponentExample {
   class Window1 : public DocumentWindow {
   public:
     Window1() : DocumentWindow {"ImageComponent example", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
@@ -68,4 +68,4 @@ namespace ComboBoxExample {
   };
 }
 
-START_JUCE_APPLICATION(ComboBoxExample::Application)
+START_JUCE_APPLICATION(ImageComponentExample::Application)
