@@ -24,10 +24,10 @@ namespace LabelExample {
     }
     
     void paintListBoxItem(int rowNumber, Graphics& g, int width, int height, bool rowIsSelected) override {
-      if (rowIsSelected) g.fillAll(Colours::lightblue);
+      if (rowIsSelected) g.fillAll(Colours::dodgerblue);
       
       g.setColour(LookAndFeel::getDefaultLookAndFeel().findColour(Label::textColourId));
-      g.setFont((float) height * 0.7f);
+      g.setFont(height * 0.7f);
       g.drawText(at(rowNumber), 5, 0, width, height, Justification::centredLeft, true);
     }
   };
