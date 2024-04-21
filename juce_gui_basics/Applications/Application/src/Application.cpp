@@ -1,7 +1,5 @@
 #include <JuceHeader.h>
 
-using namespace juce;
-
 namespace ApplicationExample {
   class Window1 : public DocumentWindow {
   public:
