@@ -52,11 +52,15 @@ Shows how to use [JUCE](https://juce.com) components only by programming code ([
 ## [juce_dsp](juce_dsp/README.md) 
 
 * Not yet implemented
+--->
 
 ## [juce_events](juce_events/README.md) 
 
-* Not yet implemented
+[juce_gui_basics examples](juce_gui_basics/README.md) contains [juce_events](https://docs.juce.com/master/group__juce__events.html) events examples.
 
+* [Timers](juce_events/Timers/README.md) contains Timers examples.
+
+<!---
 ## [juce_graphics](juce_graphics/README.md) 
 
 * Not yet implemented
