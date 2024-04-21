@@ -8,5 +8,6 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 add_subdirectory(HelloWorlds)
 add_subdirectory(Applications)
+add_subdirectory(Buttons)
 add_subdirectory(Widgets)
 add_subdirectory(Others)
