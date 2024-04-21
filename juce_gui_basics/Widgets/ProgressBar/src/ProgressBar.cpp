@@ -6,10 +6,10 @@ using namespace std;
 namespace ProgressBarExample {
   class ProgressTimer : public Timer {
   public:
-    function<void()> onTicks;
+    function<void()> onTick;
     
   private:
-    void timerCallback() override {if (onTicks) onTicks();}
+    void timerCallback() override {if (onTick) onTick();}
   };
   
   class Window1 : public DocumentWindow {
@@ -19,7 +19,7 @@ namespace ProgressBarExample {
       setContentOwned(&mainComponent, false);
       setResizable(true, true);
       
-      timer1.onTicks = [&] {
+      timer1.onTick = [&] {
         progressValue4 = clamp(progressValue4 < 1.0 ? progressValue4 + .01 : .0, .0, 1.0);
       };
       timer1.startTimer(50);
