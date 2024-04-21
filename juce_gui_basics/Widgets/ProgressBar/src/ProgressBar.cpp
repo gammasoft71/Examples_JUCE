@@ -1,6 +1,6 @@
-#include <juce_gui_basics/juce_gui_basics.h>
+#include <algorithm>
+#include <JuceHeader.h>
 
-using namespace juce;
 using namespace std;
 
 namespace ProgressBarExample {
@@ -20,7 +20,7 @@ namespace ProgressBarExample {
       setResizable(true, true);
       
       timer1.onTicks = [&] {
-        progressValue4 = min(progressValue4 < 1.0 ? progressValue4 + .01 : .0, 1.0);
+        progressValue4 = clamp(progressValue4 < 1.0 ? progressValue4 + .01 : .0, .0, 1.0);
       };
       timer1.startTimer(50);
       
@@ -62,8 +62,8 @@ namespace ProgressBarExample {
   
   class Application : public JUCEApplication {
   protected:
-    const String getApplicationName() override {return "";}
-    const String getApplicationVersion() override {return "";}
+    const String getApplicationName() override {return ProjectInfo::projectName;}
+    const String getApplicationVersion() override {return ProjectInfo::versionString;}
     
     void initialise(const String& commandLine) override {mainWindow.setVisible(true);}
     void shutdown() override {}

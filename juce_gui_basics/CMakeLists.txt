@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.22)
-project(wxCore)
+project(juce_gui_basics)
+if (NOT JUCE_FOUND)
+  find_package(JUCE CONFIG REQUIRED)
+endif ()
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 

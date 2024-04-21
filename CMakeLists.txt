@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.22)
 project(JUCEExamples)
 if (NOT JUCE_FOUND)
-  find_package(JUCE REQUIRED)
+  find_package(JUCE CONFIG REQUIRED)
 endif ()
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)

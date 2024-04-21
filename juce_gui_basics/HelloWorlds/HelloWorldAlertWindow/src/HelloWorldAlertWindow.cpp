@@ -1,11 +1,9 @@
-#include <juce_gui_basics/juce_gui_basics.h>
-
-using namespace juce;
+#include <JuceHeader.h>
 
 namespace HelloWorldAlertWindowExample {
   class Window1 : public DocumentWindow {
   public:
-    Window1() : DocumentWindow {"Hello world (NativeMessageBox)", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
+    Window1() : DocumentWindow {"Hello world (AlertWindow)", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
       setContentOwned(&mainComponent, false);
       setResizable(true, true);
       setBounds(200, 100, 300, 300);
@@ -29,8 +27,8 @@ namespace HelloWorldAlertWindowExample {
   
   class Application : public JUCEApplication {
   protected:
-    const String getApplicationName() override {return "";}
-    const String getApplicationVersion() override {return "";}
+    const String getApplicationName() override {return ProjectInfo::projectName;}
+    const String getApplicationVersion() override {return ProjectInfo::versionString;}
     
     void initialise(const String& commandLine) override {mainWindow.setVisible(true);}
     void shutdown() override {}

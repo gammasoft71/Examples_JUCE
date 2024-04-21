@@ -1,6 +1,4 @@
-#include <juce_gui_basics/juce_gui_basics.h>
-
-using namespace juce;
+#include <JuceHeader.h>
 
 namespace HelloWorldLabelExample {
   class Window1 : public DocumentWindow {

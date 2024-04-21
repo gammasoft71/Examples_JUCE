@@ -1,6 +1,4 @@
-#include <juce_gui_basics/juce_gui_basics.h>
-
-using namespace juce;
+#include <JuceHeader.h>
 
 namespace HelloWorldPaintExample {
   class OwnerDrawComponent : public Component {
@@ -32,8 +30,8 @@ namespace HelloWorldPaintExample {
   
   class Application : public JUCEApplication {
   protected:
-    const String getApplicationName() override {return "";}
-    const String getApplicationVersion() override {return "";}
+    const String getApplicationName() override {return ProjectInfo::projectName;}
+    const String getApplicationVersion() override {return ProjectInfo::versionString;}
     
     void initialise(const String& commandLine) override {mainWindow.setVisible(true);}
     void shutdown() override {}

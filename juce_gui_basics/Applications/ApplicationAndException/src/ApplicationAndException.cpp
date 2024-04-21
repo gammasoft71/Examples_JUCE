@@ -1,7 +1,6 @@
 #include <stdexcept>
-#include <juce_gui_basics/juce_gui_basics.h>
+#include <JuceHeader.h>
 
-using namespace juce;
 using namespace std;
 
 namespace ApplicationAndExceptionExample {
@@ -53,8 +52,8 @@ namespace ApplicationAndExceptionExample {
   
   class Application : public JUCEApplication {
   protected:
-    const String getApplicationName() override {return "";}
-    const String getApplicationVersion() override {return "";}
+    const String getApplicationName() override {return ProjectInfo::projectName;}
+    const String getApplicationVersion() override {return ProjectInfo::versionString;}
     
     void initialise(const String& commandLine) override {
       try {
