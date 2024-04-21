@@ -69,6 +69,7 @@ Shows how to use [JUCE](https://juce.com) components only by programming code ([
 * [Hello World](juce_gui_basics/HelloWorlds/README.md) contains JUCE "Hello, World!" examples.
 * [Applications](juce_gui_basics/Applications/README.md) contains applications examples.
 * [Widgets](juce_gui_basics/Widgets/README.md) contains widgets examples.
+* [Others](juce_gui_basics/Widgets/README.md) contains others examples.
 
 <!---
 ## [juce_gui_extra](juce_gui_extra/README.md) 
