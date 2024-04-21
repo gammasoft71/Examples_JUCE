@@ -6,7 +6,7 @@
 * [ImageComponent](ImageComponent/README.md) shows how to create a Image widget with [juce::ImageComponent](https://docs.juce.com/master/classImageComponent.html).
 * [Label](Label/README.md) shows how to create a ComboBox widget with [juce::Label](https://docs.juce.com/master/classLabel.html).
 * [ListBox](ListBox/README.md) shows how to create a ComboBox widget with [juce::ListBox](https://docs.juce.com/master/classListBox.html).
-* [ProgressBar](ProgressBar/README.md) shows how to create a ComboBox widget with [juce::ProgressBar](https://docs.juce.com/master/classProgressBar.html).
+* [ProgressBar](ProgressBar/README.md) shows how to create a ProgressBar widget with [juce::ProgressBar](https://docs.juce.com/master/classProgressBar.html).
 
 ## Build and run
 
