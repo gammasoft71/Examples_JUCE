@@ -7,6 +7,7 @@
 * [Label](Label/README.md) shows how to create a ComboBox widget with [juce::Label](https://docs.juce.com/master/classLabel.html).
 * [ListBox](ListBox/README.md) shows how to create a ComboBox widget with [juce::ListBox](https://docs.juce.com/master/classListBox.html).
 * [ProgressBar](ProgressBar/README.md) shows how to create a ProgressBar widget with [juce::ProgressBar](https://docs.juce.com/master/classProgressBar.html).
+* [Slider](Slider/README.md) shows how to create a Slider widget with [juce::Slider](https://docs.juce.com/master/classSlider.html).
 
 ## Build and run
 
