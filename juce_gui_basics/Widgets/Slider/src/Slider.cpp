@@ -3,10 +3,10 @@
 
 using namespace std;
 
-namespace ProgressBarExample {
+namespace SliderExample {
   class Window1 : public DocumentWindow {
   public:
-    Window1() : DocumentWindow {"ProgressBar example", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
+    Window1() : DocumentWindow {"Slider example", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
       setBounds(200, 100, 300, 300);
       setContentOwned(&mainComponent, false);
       setResizable(true, true);
@@ -54,4 +54,4 @@ namespace ProgressBarExample {
   };
 }
 
-START_JUCE_APPLICATION(ProgressBarExample::Application)
+START_JUCE_APPLICATION(SliderExample::Application)
