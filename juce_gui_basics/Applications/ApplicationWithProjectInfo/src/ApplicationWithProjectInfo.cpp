@@ -1,6 +1,6 @@
 #include <JuceHeader.h>
 
-namespace ApplicationExample {
+namespace ApplicationWithProjectInfoExample {
   class Window1 : public DocumentWindow {
   public:
     Window1() : DocumentWindow {ProjectInfo::projectName, Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
@@ -68,4 +68,4 @@ namespace ApplicationExample {
   };
 }
 
-START_JUCE_APPLICATION(ApplicationExample::Application)
+START_JUCE_APPLICATION(ApplicationWithProjectInfoExample::Application)

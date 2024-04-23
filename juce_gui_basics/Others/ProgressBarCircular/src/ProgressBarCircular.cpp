@@ -3,7 +3,7 @@
 
 using namespace std;
 
-namespace ProgressBarExample {
+namespace ProgressBarCircularExample {
   class ProgressTimer : public Timer {
   public:
     function<void()> onTick;
@@ -14,7 +14,7 @@ namespace ProgressBarExample {
   
   class Window1 : public DocumentWindow {
   public:
-    Window1() : DocumentWindow {"ProgressBar example", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
+    Window1() : DocumentWindow {"ProgressBar circular example", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
       setBounds(200, 100, 300, 350);
       setContentOwned(&mainComponent, false);
       setResizable(true, true);
@@ -78,4 +78,4 @@ namespace ProgressBarExample {
   };
 }
 
-START_JUCE_APPLICATION(ProgressBarExample::Application)
+START_JUCE_APPLICATION(ProgressBarCircularExample::Application)
