@@ -4,4 +4,5 @@ if (NOT JUCE_FOUND)
   find_package(JUCE CONFIG REQUIRED)
 endif ()
 
+add_subdirectory(RadioButton)
 add_subdirectory(TextButton)

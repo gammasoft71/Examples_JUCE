@@ -1,6 +1,6 @@
 # TextButton
 
-Shows how to create a TextButton widget with [juce::ProgressBar](https://docs.juce.com/master/clasTextButton.html) widgets.
+Shows how to create a TextButton widget with [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widgets.
 
 ## Source
 

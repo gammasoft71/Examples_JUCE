@@ -24,7 +24,8 @@
 
 ## [Buttons](Buttons/README.md)
 
-* [TextButton](Buttons/TextButton/README.md) shows how to create a TextButton widget with [juce::Button](https://docs.juce.com/master/classTextButton.html) widget.
+* [RadioButton](Buttons/TextButton/README.md) shows how to create a RadioButton widget with [juce::Button](https://docs.juce.com/master/classTextButton.html) widget.
+* [TextButton](Buttons/TextButton/README.md) shows how to create a Button widget with [juce::Button](https://docs.juce.com/master/classTextButton.html) widget.
 
 ## [Widgets](Widgets/README.md)
 
