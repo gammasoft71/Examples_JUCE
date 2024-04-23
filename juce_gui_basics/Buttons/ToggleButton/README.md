@@ -1,6 +1,6 @@
 # ToggleButton
 
-Shows how to create a ToggleButton widget with [juce::ToggleButton](https://docs.juce.com/master/classToggleButton.html) widgets.
+Shows how to create a ToggleButton widget with [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widgets.
 
 ## Source
 
