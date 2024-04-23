@@ -1,10 +1,10 @@
 #include <JuceHeader.h>
 
-namespace ProgressBarExample {
+namespace TextButtonExample {
   class Window1 : public DocumentWindow {
   public:
     Window1() : DocumentWindow {"TextButton example", Desktop::getInstance().getDefaultLookAndFeel().findColour(ResizableWindow::backgroundColourId), DocumentWindow::allButtons} {
-      setBounds(200, 100, 300, 350);
+      setBounds(200, 100, 300, 325);
       setContentOwned(&mainComponent, false);
       setResizable(true, true);
       
@@ -58,4 +58,4 @@ namespace ProgressBarExample {
   };
 }
 
-START_JUCE_APPLICATION(ProgressBarExample::Application)
+START_JUCE_APPLICATION(TextButtonExample::Application)
