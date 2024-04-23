@@ -2,8 +2,8 @@
 
 [This folder](.) contains JUCE Buttons examples.
 
-* [RadioButton](TextButton/README.md) shows how to create a RadioButton widget with [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widget.
-* [TextButton](TextButton/README.md) shows how to create a Button widget with [juce::ToggleButton](https://docs.juce.com/master/classToggleButton.html) widget.
+* [RadioButton](RadioButton/README.md) shows how to create a RadioButton widget with [juce::RadioButton](https://docs.juce.com/master/classToggleButton.html) widget.
+* [TextButton](TextButton/README.md) shows how to create a Button widget with [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widget.
 
 ## Build and run
 
