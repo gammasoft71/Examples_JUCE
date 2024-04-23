@@ -21,8 +21,8 @@ namespace ToggleButtonExample {
       mainComponent.addAndMakeVisible(&toggleButton1);
       
       toggleButton2.setBounds(30, 60, 105, 25);
-      toggleButton1.setToggleable(true);
       toggleButton2.setButtonText("Unchecked");
+      toggleButton1.setToggleable(true);
       toggleButton2.onClick = [&] {
         toggleButton2.setToggleState(!toggleButton2.getToggleState(), NotificationType::dontSendNotification);
         toggleButton2.setButtonText(toggleButton2.getToggleState() ? "Checked" : "Unchecked");
