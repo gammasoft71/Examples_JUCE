@@ -3,7 +3,7 @@
 [This folder](.) contains JUCE Buttons examples.
 
 * [ArrowButton](ArrowButton/README.md) shows how to create a ArrowButton widget with [juce::ArrowButton](https://docs.juce.com/master/classArrowButton.html) widget.
-* [HyperLinkButton](HyperLinkButton/README.md) shows how to create a HyperLinkButton widget with [juce::HyperLinkButton](https://docs.juce.com/master/classHyperLinkButton.html) widget.
+* [HyperlinkButton](HyperlinkButton/README.md) shows how to create a HyperlinkButton widget with [juce::HyperlinkButton](https://docs.juce.com/master/classHyperlinkButton.html) widget.
 * [RadioButton](RadioButton/README.md) shows how to create a RadioButton widget with [juce::ToggleButton](https://docs.juce.com/master/classToggleButton.html) widget.
 * [TextButton](TextButton/README.md) shows how to create a Button widget with [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widget.
 * [ToggleButton](ToggleButton/README.md) shows how to create a ToggleButton widget with [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widget.
