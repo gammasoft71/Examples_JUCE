@@ -5,6 +5,7 @@ if (NOT JUCE_FOUND)
 endif ()
 
 add_subdirectory(ArrowButton)
+add_subdirectory(CheckBox)
 add_subdirectory(HyperlinkButton)
 add_subdirectory(RadioButton)
 add_subdirectory(TextButton)

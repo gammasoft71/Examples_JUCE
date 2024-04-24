@@ -25,6 +25,7 @@
 ## [Buttons](Buttons/README.md)
 
 * [ArrowButton](Buttons/ArrowButton/README.md) shows how to create a ArrowButton widget with [juce::ArrowButton](https://docs.juce.com/master/classArrowButton.html) widget.
+* [CheckBox](Buttons/CheckBox/README.md) shows how to create a CheckBox widget with [juce::ToggleButton](https://docs.juce.com/master/classToggleButton.html) widget.
 * [HyperlinkButton](Buttons/HyperlinkButton/README.md) shows how to create a HyperlinkButton widget with [juce::HyperlinkButton](https://docs.juce.com/master/classHyperlinkButton.html) widget.
 * [RadioButton](Buttons/RadioButton/README.md) shows how to create a RadioButton widget with [juce::ToggleButton](https://docs.juce.com/master/classToggleButton.html) widget.
 * [TextButton](Buttons/TextButton/README.md) shows how to create a Button widget with [juce::TextButton](https://docs.juce.com/master/classTextButton.html) widget.
