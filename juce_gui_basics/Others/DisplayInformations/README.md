@@ -1,6 +1,6 @@
 # DisplayInformations
 
-Shows how to use [juce::Display](https://docs.juce.com/master/classDisplay.html) class.
+Shows how to use [juce::Display](https://docs.juce.com/master/structDisplays_1_1Display.html) struct.
 
 ## Source
 

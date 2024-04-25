@@ -2,7 +2,7 @@
 
 [This folder](.) contains JUCE others examples.
 
-* [DisplayInformations](DisplayInformations/README.md) shows how to use [juce::Display](https://docs.juce.com/master/classDisplay.html) class.
+* [DisplayInformations](DisplayInformations/README.md) shows how to use [juce::Display](https://docs.juce.com/master/structDisplays_1_1Display.html) struct.
 * [ProgressBarCircular](ProgressBarCircular/README.md) shows how to create a ProgressBar widget with [juce::ProgressBar](https://docs.juce.com/master/classProgressBar.html).
 
 ## Build and run
