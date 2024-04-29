@@ -7,9 +7,9 @@ namespace HelloWorldPaintExample {
       g.fillAll(Colours::lightblue);
       g.setFont({Font::getDefaultMonospacedFontName(), 40, Font::FontStyleFlags::bold | Font::FontStyleFlags::italic});
       g.setColour(Colours::lightblue.darker());
-      g.drawText("Hello, World!", g.getClipBounds() + Point<int>(2, 2), Justification::centred);
+      g.drawFittedText("Hello, World!", g.getClipBounds() + Point<int>(2, 2), Justification::centred, 2);
       g.setColour(Colours::darkblue);
-      g.drawText("Hello, World!", g.getClipBounds(), Justification::centred);
+      g.drawFittedText("Hello, World!", g.getClipBounds(), Justification::centred, 2);
     }
   };
 
